@@ -106,7 +106,7 @@ public class RegisterActivity extends AppCompatActivity {
                         Toast.makeText(getApplicationContext(), "ユーザーの新規登録に失敗しました。", Toast.LENGTH_LONG).show();
                     }else {
                         Toast.makeText(getApplicationContext(), "ユーザーの新規登録に成功しました。", Toast.LENGTH_LONG).show();
-                        Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+                        Intent intent = new Intent(getApplicationContext(), BottomNavActivity.class);
                         startActivity(intent);
                     }
                 }catch (Exception e) {

@@ -86,7 +86,7 @@ public class LoginActivity extends AppCompatActivity {
                         Toast.makeText(getApplicationContext(), "ユーザー情報に誤りがあるか、すでに登録されている可能性があります。", Toast.LENGTH_LONG).show();
                     }else {
                         Toast.makeText(getApplicationContext(), "ログインに成功しました。", Toast.LENGTH_LONG).show();
-                        Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+                        Intent intent = new Intent(getApplicationContext(), BottomNavActivity.class);
                         startActivity(intent);
                     }
                 }catch (Exception e) {
